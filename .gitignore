@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Datasets (too large for git)
+ml/ASL Digits/
+ml/Number Hand Gesture Recognition/
+ml/numbers-export/
+ml/more/
+
+# Trained model weights
+*.pth
+
+# Generated manifests
+ml/merged_split.json
+
+# Firmware binaries
+*.bin
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.MOV
+*.mp4
+*.pdf
+temp.txt
